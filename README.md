@@ -11,7 +11,7 @@
 - Optimization level tahmini
 - Debug symbol var/yok analizi
 
-<img src="../_resources/798a2b8561a5c6f2b3468ead309bfe44-1.png" alt="798a2b8561a5c6f2b3468ead309bfe44.png" width="903" height="91" class="jop-noMdConv"> <img src="../_resources/f79e22a04221f6c8974f04ef9dd52f7a-1.png" alt="f79e22a04221f6c8974f04ef9dd52f7a.png" width="905" height="358" class="jop-noMdConv"><img src="../_resources/d2ed78db272a653ba013c33d6be47dad-1.png" alt="d2ed78db272a653ba013c33d6be47dad.png" width="904" height="643" class="jop-noMdConv">
+<img src="_resources/798a2b8561a5c6f2b3468ead309bfe44-1.png" alt="798a2b8561a5c6f2b3468ead309bfe44.png" width="903" height="91" class="jop-noMdConv"> <img src="../_resources/f79e22a04221f6c8974f04ef9dd52f7a-1.png" alt="f79e22a04221f6c8974f04ef9dd52f7a.png" width="905" height="358" class="jop-noMdConv"><img src="../_resources/d2ed78db272a653ba013c33d6be47dad-1.png" alt="d2ed78db272a653ba013c33d6be47dad.png" width="904" height="643" class="jop-noMdConv">
 
 Sky ve z1 32 bitlik statik linkli ve msp430 üzerinde çalışacak bir elf dosyası iken cooja 64 bitlik, dinamik linkli ve 32 ve 64 bitlik işlemcilerde çalışıcaktır.. Tüm platformlar little endianness kullanıyor yani veri LSB (least signifanct bit) göre sıralanır.
 
