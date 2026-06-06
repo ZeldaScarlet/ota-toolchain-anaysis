@@ -11,7 +11,7 @@
 - Optimization level tahmini
 - Debug symbol var/yok analizi
 
-<img src="_resources/798a2b8561a5c6f2b3468ead309bfe44-1.png" alt="798a2b8561a5c6f2b3468ead309bfe44.png" width="903" height="91" class="jop-noMdConv"> <img src="../_resources/f79e22a04221f6c8974f04ef9dd52f7a-1.png" alt="f79e22a04221f6c8974f04ef9dd52f7a.png" width="905" height="358" class="jop-noMdConv"><img src="../_resources/d2ed78db272a653ba013c33d6be47dad-1.png" alt="d2ed78db272a653ba013c33d6be47dad.png" width="904" height="643" class="jop-noMdConv">
+<img src="_resources/798a2b8561a5c6f2b3468ead309bfe44-1.png" alt="798a2b8561a5c6f2b3468ead309bfe44.png" width="903" height="91" class="jop-noMdConv"> <img src="_resources/f79e22a04221f6c8974f04ef9dd52f7a-1.png" alt="f79e22a04221f6c8974f04ef9dd52f7a.png" width="905" height="358" class="jop-noMdConv"><img src="_resources/d2ed78db272a653ba013c33d6be47dad-1.png" alt="d2ed78db272a653ba013c33d6be47dad.png" width="904" height="643" class="jop-noMdConv">
 
 Sky ve z1 32 bitlik statik linkli ve msp430 üzerinde çalışacak bir elf dosyası iken cooja 64 bitlik, dinamik linkli ve 32 ve 64 bitlik işlemcilerde çalışıcaktır.. Tüm platformlar little endianness kullanıyor yani veri LSB (least signifanct bit) göre sıralanır.
 
@@ -51,9 +51,9 @@ ELF formatı, SoC üzerindeki loader kodun hangi parçasını flash belleğe, ha
 - Memory map analizi
 - Büyük veri yapılarının tespiti
 
-<img src="../_resources/a5756391542ec7ae6f0d8964bf5999f1-1.png" alt="a5756391542ec7ae6f0d8964bf5999f1.png" width="797" height="213" class="jop-noMdConv"> <img src="../_resources/d3f5c30606070727f09b0cd3f051fa10-1.png" alt="d3f5c30606070727f09b0cd3f051fa10.png" width="789" height="556" class="jop-noMdConv"><img src="../_resources/e1f8ec922d65fe8e9e70dd47cf279c88-1.png" alt="e1f8ec922d65fe8e9e70dd47cf279c88.png" width="784" height="623" class="jop-noMdConv">
+<img src="_resources/a5756391542ec7ae6f0d8964bf5999f1-1.png" alt="a5756391542ec7ae6f0d8964bf5999f1.png" width="797" height="213" class="jop-noMdConv"> <img src="_resources/d3f5c30606070727f09b0cd3f051fa10-1.png" alt="d3f5c30606070727f09b0cd3f051fa10.png" width="789" height="556" class="jop-noMdConv"><img src="_resources/e1f8ec922d65fe8e9e70dd47cf279c88-1.png" alt="e1f8ec922d65fe8e9e70dd47cf279c88.png" width="784" height="623" class="jop-noMdConv">
 
-![fe2a50a6a4dd3de6b8d0a5e0aa04efa3.png](../_resources/fe2a50a6a4dd3de6b8d0a5e0aa04efa3-1.png)
+![fe2a50a6a4dd3de6b8d0a5e0aa04efa3.png](_resources/fe2a50a6a4dd3de6b8d0a5e0aa04efa3-1.png)
 
 &nbsp;
 
@@ -72,7 +72,7 @@ Section Dağılımı ve Memory Map Analizi; Dosyadaki bölümlerin dağılımı
 
 Büyük Veri Yapılarının Tespiti; sembol tablosu msp430-nm -S komutu ile boyutlarına göre sıralandığında, bellek üzerinde en çok yer kaplayan veri yapıları tespit edilir. Genellikle büyük boyutlu diziler, ağ paket tamponları veya sensör verisi depolama alanları bss veya data bölümlerinde en geniş yeri işgal eden yapılar olarak öne çıkar. Bu yapıların boyutu, cihazın RAM kapasitesini zorlayıp zorlamadığına dair kritik bilgi sunar.
 
-![40870f356b37503ed15ee592dd494c1d.png](../_resources/40870f356b37503ed15ee592dd494c1d-1.png)
+![40870f356b37503ed15ee592dd494c1d.png](_resources/40870f356b37503ed15ee592dd494c1d-1.png)
 
 * * *
 
@@ -91,9 +91,9 @@ Büyük Veri Yapılarının Tespiti; sembol tablosu msp430-nm -S komutu ile boyu
 - Kullanılmayan (dead) fonksiyonlar
 - Function address mapping
 
-![c4695242ad732438d4173f9fd04c8d75.png](../_resources/c4695242ad732438d4173f9fd04c8d75-1.png)
+![c4695242ad732438d4173f9fd04c8d75.png](_resources/c4695242ad732438d4173f9fd04c8d75-1.png)
 
-<img src="../_resources/4871f238daa6778d2d2adb39c778a636-1.png" alt="4871f238daa6778d2d2adb39c778a636.png" width="942" height="560" class="jop-noMdConv"> <img src="../_resources/e79f45e26ea1fe89ee39c3c46182faa4-1.png" alt="e79f45e26ea1fe89ee39c3c46182faa4.png" width="936" height="303" class="jop-noMdConv">
+<img src="_resources/4871f238daa6778d2d2adb39c778a636-1.png" alt="4871f238daa6778d2d2adb39c778a636.png" width="942" height="560" class="jop-noMdConv"> <img src="_resources/e79f45e26ea1fe89ee39c3c46182faa4-1.png" alt="e79f45e26ea1fe89ee39c3c46182faa4.png" width="936" height="303" class="jop-noMdConv">
 
 Sembol tablosu, firmware içerisindeki tüm fonksiyonların, değişkenlerin ve sürücülerin bellek üzerindeki yerleşim haritasıdır. Fonksiyon isimleri, yürütülebilir kodun bulunduğu bölgede yer alır ve işlemcinin hangi işlemleri gerçekleştirebileceğini tanımlar. Global değişkenler, programın her noktasından erişilebilen ve yaşam döngüsü uygulama boyunca süren verilerdir. Static değişkenler ise sadece tanımlandığı modül içerisinde görünür olan kalıcı veri yapılarını temsil eder.
 
@@ -120,9 +120,9 @@ Sistem içerisinde kullanılan kütüphaneler, standart matematiksel işlemlerde
 
 Araçlar:
 
-![9034952f78d67ff436ad640536864ec2.png](../_resources/9034952f78d67ff436ad640536864ec2-1.png)
+![9034952f78d67ff436ad640536864ec2.png](_resources/9034952f78d67ff436ad640536864ec2-1.png)
 
-<img src="../_resources/7ce764d369e65a83b4e2d40eaa0ba5fc-1.png" alt="7ce764d369e65a83b4e2d40eaa0ba5fc.png" width="723" height="268" class="jop-noMdConv">
+<img src="_resources/7ce764d369e65a83b4e2d40eaa0ba5fc-1.png" alt="7ce764d369e65a83b4e2d40eaa0ba5fc.png" width="723" height="268" class="jop-noMdConv">
 
 Firmware içerisinde yer alan karakter dizileri, sistemin çalışma mantığını, desteklediği protokolleri ve kullanıcı etkileşim noktalarını anlamayı sağlayan en somut verilerdir. Hata ayıklama mesajları ve yazdırma günlükleri, yazılımın icrası sırasında hangi fonksiyonların tetiklendiğini ve olası hataların hangi bloklarda oluştuğunu takip etmek amacıyla koda yerleştirilmiş ifadelerdir. Bu metinler sayesinde sistemin iç işleyişi hakkında detaylı bir yol haritası elde edilir.
 
@@ -149,7 +149,7 @@ Haberleşme protokollerine dair tespit edilen yönlendirme protokolü isimleri, 
 - Protothread expansion
 - Scheduler davranışı
 
-<img src="../_resources/8a4d88ca52703ffa39af6dea8bf5b620-1.png" alt="8a4d88ca52703ffa39af6dea8bf5b620.png" width="822" height="630" class="jop-noMdConv"> <img src="../_resources/f5c2d6ac180d09dd0e6f4b99a3a21255-1.png" alt="f5c2d6ac180d09dd0e6f4b99a3a21255.png" width="820" height="825" class="jop-noMdConv"><img src="../_resources/397c96758f716a98c1dea0080bac138d-1.png" alt="397c96758f716a98c1dea0080bac138d.png" width="821" height="241" class="jop-noMdConv">
+<img src="_resources/8a4d88ca52703ffa39af6dea8bf5b620-1.png" alt="8a4d88ca52703ffa39af6dea8bf5b620.png" width="822" height="630" class="jop-noMdConv"> <img src="_resources/f5c2d6ac180d09dd0e6f4b99a3a21255-1.png" alt="f5c2d6ac180d09dd0e6f4b99a3a21255.png" width="820" height="825" class="jop-noMdConv"><img src="_resources/397c96758f716a98c1dea0080bac138d-1.png" alt="397c96758f716a98c1dea0080bac138d.png" width="821" height="241" class="jop-noMdConv">
 
 Yazılımın düşük seviyeli çalışma mantığı, işlemciye iletilen makine komutlarının diziliminin incelenmesiyle anlaşılır. Fonksiyon giriş ve çıkış işlemleri, her alt programın başlangıcında yer alan yığın hazırlığı ve bitişinde yer alan durum geri yükleme adımlarını ifade eder. Bu adımlar sırasında gerçekleştirilen yazmaç kullanımı, verilerin işlemci içerisindeki hızlı depolama birimlerinde nasıl işlendiğini ve fonksiyonlar arası parametre aktarımının nasıl yapıldığını gösterir. Yığın çerçevesi yapısı, her fonksiyonun kendine ait yerel değişkenleri ve geri dönüş adreslerini bellek üzerinde nasıl organize ettiğini belgeler.
 
@@ -170,9 +170,9 @@ Derleyici optimizasyon davranışı, yazılan kodun bellek alanından tasarruf e
 - Optimization sonrası source mapping
 - Inline edilmiş kodların tespiti
 
-<img src="../_resources/da7d4048bcc9c6ff290c14c98d42209c-1.png" alt="da7d4048bcc9c6ff290c14c98d42209c.png" width="1024" height="480" class="jop-noMdConv">
+<img src="_resources/da7d4048bcc9c6ff290c14c98d42209c-1.png" alt="da7d4048bcc9c6ff290c14c98d42209c.png" width="1024" height="480" class="jop-noMdConv">
 
-![e3b368c5d2d829951eec4e4e1c97df1b.png](../_resources/e3b368c5d2d829951eec4e4e1c97df1b-1.png)
+![e3b368c5d2d829951eec4e4e1c97df1b.png](_resources/e3b368c5d2d829951eec4e4e1c97df1b-1.png)
 
 Hata ayıklama sembolleri içeren firmware dosyalarında, bellekteki fiziksel adresler ile orijinal kaynak kod satırları arasında doğrudan bir bağ kurulabilir. Adres ve kaynak satırı eşleme işlemi, işlemcinin o an yürüttüğü makine komutunun C programlama dilindeki hangi dosyada ve hangi satırda yazıldığını tespit etmeyi sağlar. Fonksiyon ve kaynak dosya eşlemesi ise, sembol tablosundaki işlevlerin hangi modüllerden derlendiğini ve projenin dosya yapısını ortaya çıkarır.
 
